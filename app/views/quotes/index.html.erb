@@ -1,33 +1,13 @@
-<p id="notice"><%= notice %></p>
+<body>
+  <header>
+    <h1>Random Quotes</h1>
+    <button id="load-quote" class="load-quote">Show another quote</button>
+  </header>
 
-<h1>Quotes</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Quote</th>
-      <th>Source</th>
-      <th>Category</th>
-      <th>Citation</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @quotes.each do |quote| %>
-      <tr>
-        <td><%= quote.quote %></td>
-        <td><%= quote.source %></td>
-        <td><%= quote.category %></td>
-        <td><%= quote.citation %></td>
-        <td><%= link_to 'Show', quote %></td>
-        <td><%= link_to 'Edit', edit_quote_path(quote) %></td>
-        <td><%= link_to 'Destroy', quote, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Quote', new_quote_path %>
+  <div class="container">
+    <div id="quote-box" class="quote-box">
+      <p class="quote">Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.</p>
+      <p class="source">Patrick McKenzie<span class="citation">Twitter</span><span class="year">2016</span></p>
+    </div>
+  </div>
+</body>
