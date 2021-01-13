@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   resources :quotes
-  root 'application#hello'
+  root 'quotes#index'
 end
