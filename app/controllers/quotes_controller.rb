@@ -17,6 +17,11 @@ class QuotesController < ApplicationController
     @quote = Quote.new
   end
 
+  # GET /quotes/list
+  def list
+    @quotes = Quote.all
+  end
+
   # GET /quotes/1/edit
   def edit
   end
