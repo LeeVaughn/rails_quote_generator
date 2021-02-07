@@ -4,7 +4,9 @@ class QuotesController < ApplicationController
   # GET /quotes
   # GET /quotes.json
   def index
-    @quotes = Quote.all
+    # @quotes = Quote.all
+    # @quote = @quotes.shuffle
+    @quotes = Quote.limit(1).order("RANDOM()")
   end
 
   # GET /quotes/1
