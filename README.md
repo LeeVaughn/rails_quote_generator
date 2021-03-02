@@ -9,11 +9,11 @@ Loosely based on the first project in the FSJS Techdegree, I build this applicat
 ## Features
 
 * A random quote is displayed upon page load
-* After 10 seconds the app will automatically display a new quote
-* The user can click the "Show another quote" button to generate a new quote
+* The user can click the "Show another quote" button to generate a new random quote
 
 ## Future Improvements
 
+* Add a timer to automatically display new quotes
 * Prevent repeat quotes
 * Each time a new quote is displayed the background and button color will be randomly chosen
 * Set up the root route so that it shows the option to add quotes if there are no quotes in the DB
