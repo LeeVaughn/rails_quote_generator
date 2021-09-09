@@ -31,10 +31,10 @@ Loosely based on the first project in the FSJS Techdegree, I build this applicat
 
 
 ## Built With
-[Ruby](https://www.ruby-lang.org/en/)
-[Ruby on Rails](https://rubyonrails.org/)
-[SQLite3](https://www.sqlite.org/index.html) (development)
-[PostgreSQL](https://www.postgresql.org/) (production)
+* [Ruby](https://www.ruby-lang.org/en/)
+* [Ruby on Rails](https://rubyonrails.org/)
+* [SQLite3](https://www.sqlite.org/index.html) (development)
+* [PostgreSQL](https://www.postgresql.org/) (production)
 
 ## Links
 * [Live Link](https://intense-wave-10620.herokuapp.com/)
