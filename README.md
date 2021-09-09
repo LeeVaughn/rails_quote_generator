@@ -1,4 +1,4 @@
-# Random Quote Generator (Work in Progress)
+# Random Quote Generator
 
 This Rails application randomly selects a programming, learning, or success related quote from a database and displays it on the screen.
 
